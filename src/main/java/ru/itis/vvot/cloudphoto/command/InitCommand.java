@@ -36,14 +36,14 @@ public class InitCommand implements Callable<Integer> {
     @SneakyThrows
     @Override
     public Integer call() {
-        System.out.println("aws_access_key_id:");
-        String awsAccessKeyId = sc.nextLine();
-        System.out.println("aws_secret_access_key:");
-        String awsSecretAccessKey = sc.nextLine();
-        System.out.println("bucket:");
-        String bucket = sc.nextLine();
-
         try {
+            System.out.println("aws_access_key_id:");
+            String awsAccessKeyId = sc.nextLine();
+            System.out.println("aws_secret_access_key:");
+            String awsSecretAccessKey = sc.nextLine();
+            System.out.println("bucket:");
+            String bucket = sc.nextLine();
+
             saveConfig(awsAccessKeyId, awsSecretAccessKey, bucket);
 
             try {

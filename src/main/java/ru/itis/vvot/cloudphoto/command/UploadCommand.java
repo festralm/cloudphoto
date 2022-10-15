@@ -34,7 +34,7 @@ public class UploadCommand implements Callable<Integer> {
 
     @Override
     public Integer call() {
-        if (album.contains("/")) {
+        if (album.contains("/") || album.trim().isEmpty()) {
             System.err.println("Incorrect album name " + album);
             return 1;
         }

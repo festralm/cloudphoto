@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class YandexStorageService {
-    public static final String CREDENTIALS_PATH = System.getProperty("user.home") + "/config/cloudphoto/cloudphotorc";
+    public static final String CREDENTIALS_PATH = System.getProperty("user.home") + "/.config/cloudphoto/cloudphotorc";
     private static String bucketName;
     private static String endpoint = "";
     private static String region = "";
