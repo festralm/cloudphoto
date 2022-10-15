@@ -1,3 +1,0 @@
-2022-10-15 18:46:15.147  INFO 1036 --- [main] r.i.v.c.CloudphotoApplicationTests       : Starting CloudphotoApplicationTests using Java 17.0.1 on DESKTOP-FAVQPCA with PID 1036 (started by alia0 in C:\All\cloudphoto)
-2022-10-15 18:46:15.148  INFO 1036 --- [main] r.i.v.c.CloudphotoApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2022-10-15 18:46:15.951  INFO 1036 --- [main] r.i.v.c.CloudphotoApplicationTests       : Started CloudphotoApplicationTests in 1.268 seconds (JVM running for 5.408)
