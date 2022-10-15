@@ -1,3 +1,7 @@
+# Миннегараева Алия
+## 11-904
+Написала скрипт для установки программы (файл [script.sh](https://github.com/festralm/cloudphoto/blob/master/script.sh) в корне) или вот:
+```sh
 #!/bin/bash
 
 sudo rm -rf /opt/cloudphoto-43
@@ -25,3 +29,4 @@ sudo echo '#!/bin/bash' >> $file
 sudo echo 'java -jar /opt/cloudphoto-43/cloudphoto-0.0.1-SNAPSHOT.jar "$@"' >> $file
 sudo chmod o-w $file
 sudo chmod +x $file
+```
