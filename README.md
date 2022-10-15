@@ -25,6 +25,7 @@ sudo mv target/cloudphoto-0.0.1-SNAPSHOT.jar /opt/cloudphoto-43/
 file="/usr/bin/cloudphoto"
 sudo touch $file
 sudo chmod o+w $file
+> $file
 sudo echo '#!/bin/bash' >> $file
 sudo echo 'java -jar /opt/cloudphoto-43/cloudphoto-0.0.1-SNAPSHOT.jar "$@"' >> $file
 sudo chmod o-w $file
