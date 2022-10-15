@@ -22,7 +22,7 @@ sudo mvn clean install &> /dev/null
 echo 'Finished downloading libraries'
 sudo mv target/cloudphoto-0.0.1-SNAPSHOT.jar /opt/cloudphoto-43/
 
-file="/usr/bincloudphoto"
+file="/usr/bin/cloudphoto"
 sudo touch $file
 sudo chmod o+w $file
 sudo echo '#!/bin/bash' >> $file
