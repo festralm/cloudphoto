@@ -1,6 +1,6 @@
 # Миннегараева Алия
 ## 11-904
-Написала скрипт для установки программы [script.sh](https://github.com/festralm/cloudphoto/blob/master/script.sh) или вот:
+Написала скрипт для установки программы [script.sh](https://github.com/festralm/cloudphoto/blob/master/script.sh) (также могу прислать готовый jar-ник) или вот:
 ```sh
 #!/bin/bash
 
